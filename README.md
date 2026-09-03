@@ -11,7 +11,7 @@ Deployment automation for the Beef-Stew site. **This is an orphan branch — it 
 
 Checked out separately on the Synology at:
 
-    /var/services/homes/jack/beef-stew-deploy/
+    /var/services/homes/jack/beef-stew-site/
 
 It operates on the live site repo at `/volume1/docker/beef-stew-site` (checked out to `main`). The two checkouts are independent, so the deploy repo's `git reset --hard` never touches this script.
 
@@ -19,7 +19,7 @@ It operates on the live site repo at `/volume1/docker/beef-stew-site` (checked o
 
 Run by DSM Task Scheduler every 5 minutes as root:
 
-    bash /var/services/homes/jack/beef-stew-deploy/deploy.sh >> /var/services/homes/jack/beef-stew-deploy/deploy.log 2>&1
+    bash /var/services/homes/jack/beef-stew-site/deploy.sh >> /var/services/homes/jack/beef-stew-site/deploy.log 2>&1
 
 ## Editing
 
