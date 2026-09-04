@@ -280,6 +280,14 @@ nav a:hover {
   background:var(--cream);
   border:1px solid var(--line)
 }
+.product-gallery { position: relative; background: var(--deep); }
+.product-gallery > img { height: 390px; }
+.gallery-control { position: absolute; top: 50%; transform: translateY(-50%); width: 36px; height: 36px; border: 0; border-radius: 50%; background: rgba(7,16,29,.75); color: #fff; font-size: 28px; line-height: 1; cursor: pointer; }
+.gallery-prev { left: 12px; }
+.gallery-next { right: 12px; }
+.gallery-dots { position: absolute; left: 0; right: 0; bottom: 14px; display: flex; justify-content: center; gap: 7px; }
+.gallery-dot { width: 8px; height: 8px; padding: 0; border: 1px solid #fff; border-radius: 50%; background: transparent; cursor: pointer; }
+.gallery-dot.active { background: var(--gold); border-color: var(--gold); }
 .product-card img {
   height:390px
 }

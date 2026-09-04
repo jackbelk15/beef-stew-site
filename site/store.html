@@ -15,6 +15,7 @@
     <meta property="og:description" content="Official merchandise from The Beef-Stew Co., including Certified Beef-Stew, a spoon, and an apron.">
     <meta property="og:image" content="https://beef-stew.com/assets/images/headquarters.webp">
     <link rel="stylesheet" href="assets/site.css?v=4">
+    <script defer src="assets/store.js?v=1"></script>
   </head>
   <body>
     <header>
@@ -41,7 +42,9 @@
       </section>
       <section class="section product-grid">
         <article class="product-card">
-            <img src="assets/images/stew-table.webp" alt="Bowl of beef stew served with bread and a spoon">
+          <div class="product-gallery" data-gallery="stew">
+            <img src="assets/images/Beef-Stew.JPG" alt="Certified Beef-Stew served in a bowl">
+          </div>
           <div>
             <p class="eyebrow dark">The Beef-Stew Co.</p>
             <h2>Certified Beef-Stew</h2>
@@ -51,7 +54,12 @@
           </div>
         </article>
         <article class="product-card">
-          <img src="assets/images/product-spoon.webp" alt="Placeholder product photograph for Advanced Beef-Stew Spoon">
+          <div class="product-gallery" data-gallery="spoon">
+            <img src="assets/images/spoon-01.jpg" alt="Advanced Beef-Stew Spoon photographed on black stone">
+            <button class="gallery-control gallery-prev" type="button" aria-label="Previous spoon image">‹</button>
+            <button class="gallery-control gallery-next" type="button" aria-label="Next spoon image">›</button>
+            <div class="gallery-dots" aria-label="Spoon images"></div>
+          </div>
           <div>
             <p class="eyebrow dark">The Beef-Stew Co.</p>
             <h2>Advanced Beef-Stew Spoon</h2>
@@ -61,7 +69,12 @@
           </div>
         </article>
         <article class="product-card">
-          <img src="assets/images/product-apron.webp" alt="Placeholder product photograph for Business Attire Apron">
+          <div class="product-gallery" data-gallery="apron">
+            <img src="assets/images/apron-01.jpg" alt="Business Attire Apron in brown">
+            <button class="gallery-control gallery-prev" type="button" aria-label="Previous apron image">‹</button>
+            <button class="gallery-control gallery-next" type="button" aria-label="Next apron image">›</button>
+            <div class="gallery-dots" aria-label="Apron images"></div>
+          </div>
           <div>
             <p class="eyebrow dark">The Beef-Stew Co.</p>
             <h2>Business Attire Apron</h2>
