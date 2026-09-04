@@ -1,6 +1,6 @@
 const galleries = {
-  spoon: ['spoon-02.jpg', 'spoon-01.jpg', 'spoon-03.jpg'],
-  apron: ['apron-01.jpg', 'apron-02.jpg', 'apron-03.jpg', 'apron-04.jpg', 'apron-05.jpg', 'apron-06.jpg'],
+  spoon: ['spoon-02.webp', 'spoon-01.webp', 'spoon-03.webp'],
+  apron: ['apron-01.webp', 'apron-02.webp', 'apron-03.webp', 'apron-04.webp', 'apron-05.webp', 'apron-06.webp'],
 };
 
 document.querySelectorAll('[data-gallery]').forEach((gallery) => {

@@ -271,7 +271,7 @@ nav a:hover {
   background:var(--cream);
   border:1px solid var(--line)
 }
-.product-gallery { position: relative; background: var(--deep); }
+.product-gallery { position: relative; overflow: hidden; }
 .product-gallery > img { height: 390px; }
 .gallery-control { position: absolute; top: 50%; transform: translateY(-50%); width: 36px; height: 36px; border: 0; border-radius: 50%; background: rgba(7,16,29,.75); color: #fff; font-size: 28px; line-height: 1; cursor: pointer; }
 .gallery-prev { left: 12px; }
@@ -504,12 +504,6 @@ header nav {
 .division-grid article {
     border-left:0;
     border-top:1px solid var(--line)
-  }
-.division-grid article {
-    padding:22px 20px
-  }
-.operations .photo-grid {
-    gap:20px
   }
 .photo-grid img {
     height:320px
