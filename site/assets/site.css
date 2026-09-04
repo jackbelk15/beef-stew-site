@@ -297,13 +297,6 @@ nav a:hover {
   font-weight:600;
   color:var(--navy)!important
 }
-.policy-strip {
-  background:#e3ded3;
-  padding:55px max(28px,calc((100vw - 900px)/2))
-}
-.policy-strip h2 {
-  font-size:30px
-}
 .legal-page {
   max-width:820px;
   margin:auto;
