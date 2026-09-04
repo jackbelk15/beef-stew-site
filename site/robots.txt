@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /portal.html
-Sitemap: https://beef-stew.com/sitemap.xml
