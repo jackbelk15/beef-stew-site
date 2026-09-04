@@ -102,7 +102,7 @@ nav a:hover {
   min-height:680px;
   display:flex;
   align-items:center;
-  background:linear-gradient(90deg,rgba(7,16,29,.95) 10%,rgba(7,16,29,.72) 62%,rgba(7,16,29,.2)),url('images/executive.webp') center/cover;
+  background:linear-gradient(90deg,rgba(7,16,29,.95) 10%,rgba(7,16,29,.72) 62%,rgba(7,16,29,.2)),url('images/headquarters.webp') center/cover;
   color:white
 }
 .hero-copy {

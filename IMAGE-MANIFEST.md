@@ -4,8 +4,8 @@ Replace the current WebP placeholders in `site/assets/images/` using the exact f
 
 | File | Placement | Composition to search for | Target crop | Search terms |
 |---|---|---|---|---|
-| ~~`hero-corporate.webp`~~ → `executive.webp` | Homepage hero and social preview | Executive at work with quiet space for the headline overlay | 1600×1000, landscape | **Supplied** |
-| ~~`company-boardroom.webp`~~ → `headquarters.webp` | Homepage “The Company” section | Glass headquarters towers viewed from below | 1600×1000, landscape | **Supplied** |
+| ~~`hero-corporate.webp`~~ → `headquarters.webp` | Homepage hero and social preview | Glass headquarters towers viewed from below | 1600×1000, landscape | **Supplied** |
+| ~~`company-boardroom.webp`~~ → `executive.webp` | Homepage “The Company” section | Executive working at a table with a laptop | 1600×1000, landscape | **Supplied** |
 | ~~`operations-farm.webp`~~ → `farm2.webp` | Agricultural Sourcing card | Worker tending crops in a greenhouse | 1000×1300, portrait | **Supplied** |
 | ~~`operations-production.webp`~~ → `stew-portrait.webp` | Stew Production card | Workers monitoring a large-scale food production line | 1000×1300, portrait | **Supplied** |
 | ~~`operations-lab.webp`~~ → `lab.webp` | Institutional Distribution/standards card | Technician working beside food production equipment | 1000×1300, portrait | **Supplied** |
