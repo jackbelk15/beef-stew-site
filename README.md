@@ -215,7 +215,7 @@ No open-source license is currently stated in this repository. Unless a license 
 
 ## Contact
 
-For corporate inquiries, visit [beef-stew.com](https://beef-stew.com/) or email [enquiries@beef-stew.com](mailto:enquiries@beef-stew.com).
+For corporate inquiries, visit [beef-stew.com](https://beef-stew.com/) or email [support@beef-stew.com](mailto:support@beef-stew.com).
 
 ---
 
