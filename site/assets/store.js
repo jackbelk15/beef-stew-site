@@ -1,5 +1,5 @@
 const galleries = {
-  spoon: ['spoon-01.jpg', 'spoon-02.jpg', 'spoon-03.jpg'],
+  spoon: ['spoon-02.jpg', 'spoon-01.jpg', 'spoon-03.jpg'],
   apron: ['apron-01.jpg', 'apron-02.jpg', 'apron-03.jpg', 'apron-04.jpg', 'apron-05.jpg', 'apron-06.jpg'],
 };
 
