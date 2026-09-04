@@ -220,4 +220,4 @@ For corporate inquiries, visit [beef-stew.com](https://beef-stew.com/) or email 
 ---
 
 **The Beef-Stew Co.**  
-A global company. A specific responsibility.
+A global leader in stew.
