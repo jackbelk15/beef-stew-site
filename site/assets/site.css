@@ -209,10 +209,6 @@ nav a:hover {
   font-size:21px;
   line-height:1.25
 }
-.division-grid p {
-  font-size:13px;
-  color:var(--muted)
-}
 .photo-grid {
   display:grid;
   grid-template-columns:repeat(3,1fr);
@@ -220,11 +216,6 @@ nav a:hover {
 }
 .photo-grid img {
   height:330px
-}
-.photo-grid figcaption {
-  font-size:11px;
-  color:var(--muted);
-  padding-top:9px
 }
 .photo-grid figure {
   margin:0
@@ -513,6 +504,12 @@ header nav {
 .division-grid article {
     border-left:0;
     border-top:1px solid var(--line)
+  }
+.division-grid article {
+    padding:22px 20px
+  }
+.operations .photo-grid {
+    gap:20px
   }
 .photo-grid img {
     height:320px
