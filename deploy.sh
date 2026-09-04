@@ -13,7 +13,7 @@ exec 9>"$LOCK"
 flock -n 9 || { echo "$(date): another deploy is running, skipping"; exit 0; }
 
 git_as_owner() {
-  sudo -u "$REPO_OWNER" git -C "$DEPLOY_DIR" "$@"
+  sudo -H -u "$REPO_OWNER" git -c "safe.directory=$DEPLOY_DIR" -C "$DEPLOY_DIR" "$@"
 }
 
 git_as_owner fetch origin main
